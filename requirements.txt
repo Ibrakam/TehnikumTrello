@@ -1,0 +1,7 @@
+SQLAlchemy~=2.0.31
+aiogram~=3.10.0
+python-dotenv~=1.0.1
+fastapi
+uvicorn
+requests
+psycopg2-binary
