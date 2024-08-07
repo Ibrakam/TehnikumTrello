@@ -9,5 +9,5 @@ dp = Dispatcher()
 
 TRELLO_API_KEY = config_key['TRELLO_API_KEY']
 TRELLO_API_SECRET = config_key['TRELLO_API_SECRET']
-TRELLO_TOKEN = config_key['TRELLO_TOKEN']
+# TRELLO_TOKEN = config_key['TRELLO_TOKEN']
 TRELLO_BOARD_ID = config_key['TRELLO_BOARD_ID']

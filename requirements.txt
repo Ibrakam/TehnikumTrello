@@ -1,7 +1,9 @@
 SQLAlchemy~=2.0.31
 aiogram~=3.10.0
 python-dotenv~=1.0.1
-fastapi
+fastapi~=0.112.0
 uvicorn
-requests
+requests~=2.32.3
 psycopg2-binary
+py-trello
+Hypercorn~=0.17.3

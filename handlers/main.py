@@ -5,7 +5,7 @@ from aiogram.types import Message, MessageReactionUpdated, ReactionTypeEmoji
 from aiogram import F, Router, Bot
 from trello import TrelloClient
 
-from config import TRELLO_API_KEY, TRELLO_API_SECRET, TRELLO_BOARD_ID, TRELLO_TOKEN
+from config import TRELLO_API_KEY, TRELLO_API_SECRET, TRELLO_BOARD_ID
 from db import get_db, MessageModel
 
 router = Router()
@@ -13,7 +13,7 @@ router = Router()
 trello_client = TrelloClient(
     api_key=TRELLO_API_KEY,
     api_secret=TRELLO_API_SECRET,
-    token=TRELLO_TOKEN
+    # token=TRELLO_TOKEN
 )
 
 
