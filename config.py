@@ -3,7 +3,7 @@ from dotenv import dotenv_values
 
 config_key = dotenv_values('.env')
 
-bot = Bot(token='6556699640:AAH3DRK5qHprJaSMECaTIYD9juHCyVEMKoE')
+bot = Bot(token='')
 dp = Dispatcher()
 
 
