@@ -29,8 +29,8 @@ async def run_api():
 
 @app.post('/add_message')
 async def add_message_func(message_text: str, chat_id: int):
-    url = f"https://api.telegram.org/bot6556699640:AAH3DRK5qHprJaSMECaTIYD9juHCyVEMKoE/sendMessage"
-    # url = f"https://api.telegram.org/bot7397326527:AAHZTPHh5xanjTM9wSMcZYQZV9Tuo8A-0WQ/sendMessage"
+    url = f"https://api.telegram.org/bot/sendMessage"
+    # url = f"https://api.telegram.org/bot/sendMessage"
 
     # Параметры запроса
     payload = {
